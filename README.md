@@ -1,3 +1,2 @@
-# High_End_Package_Specific_Training
-This is the high end package specific training provided by SR University.
-I hope it will be a little helpful to beginners.
+# Trainings_Provided_By_EZ
+This is the repository for all trainings provided by EZ.
