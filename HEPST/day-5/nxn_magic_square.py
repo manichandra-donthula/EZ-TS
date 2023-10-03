@@ -16,4 +16,5 @@ if (n % 2 == 0):
 else:
     magic_square = generate_magic_square(n)
     print(f"Magic Square of order {n}:")
-    print(*magic_square)
+    for i in magic_square:
+        print(*i)
