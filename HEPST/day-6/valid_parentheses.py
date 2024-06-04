@@ -6,7 +6,7 @@ if (len(s)%2==0):
         if (c in mapp.keys()):
             l.append(c)
         elif (c in mapp.values()):
-            if ((c==")" and l[-1]=="(") or (c=="]" and l[-1]=="[") or (c=="}" and l[-1]=="{")):
+            if (mapp[l[-1]]==c):
                 l.pop(-1)
     if (len(l)!=0):
         print("Not Valid Parentheses!")
